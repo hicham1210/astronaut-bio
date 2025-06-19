@@ -13,6 +13,7 @@ body{
     color: #ffffff;
     background-color: light grey;
     background-image: url(https://globelynews.com/wp-content/uploads/2019/05/SpaceX_Hangar-1200x749.jpg);
+    background-size: cover;
 }
 
 header{
@@ -43,6 +44,7 @@ img{
     margin: 20px;}
 .card{
     display: flex;
+    text-align: justify;
     gap: 50px;
     align-items: center;  
     margin: 40px auto ;
@@ -80,4 +82,5 @@ table {
     height: 400px;
     width: 50%;
     margin: 20px auto;
+    border: 2px solid white;
 }
