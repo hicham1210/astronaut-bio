@@ -12,7 +12,7 @@ body{
     height: 100vh;
     color: #ffffff;
     background-color: light grey;
-    background-image: url(https://images.pexels.com/photos/956981/milky-way-starry-sky-night-sky-star-956981.jpeg);
+    background-image: url(https://globelynews.com/wp-content/uploads/2019/05/SpaceX_Hangar-1200x749.jpg);
 }
 
 header{
@@ -62,13 +62,12 @@ section:not(.card) a{
     color: #ffffff;
     text-decoration: none;
     margin: 10px;
-    transition:all 0.3s ease;
+    transition: all 0.5s ease-in-out;
 }
 
 section:not(.card) a:hover{
-    color: red;
-    
-}
+    color: rgb(0, 110, 255);
+    text-decoration: line-through; }
 h1,h2{
     padding:20px ;
 }
