@@ -53,6 +53,10 @@ img{
     font-size: 18px;
     font-weight: bold;
     line-height: 1.8rem;
+    
+}
+.card ul {
+    list-style: none;
 }
 section:not(.card), footer{
    height: 30%;
