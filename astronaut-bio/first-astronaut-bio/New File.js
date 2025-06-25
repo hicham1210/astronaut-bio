@@ -3,9 +3,9 @@ let button = document.getElementById("launchBtn");
 // Function to launch the mission with countdown
 function launchMission() {
     for (let i = 0; i < 4; i++) {
-       if (i === 3) {alert("LAUNCH");
+       if (i === 3) {window.alert("LAUNCH");
     }else {
-        alert(`launching in ${i+1}`); }
+        window.alert(`launching in ${i+1}`); }
     document.getElementById("MissionStatus").textContent = "Not Mission Complete";   
     }
 }
