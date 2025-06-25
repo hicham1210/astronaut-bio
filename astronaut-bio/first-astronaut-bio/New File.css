@@ -1,0 +1,16 @@
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+button{
+    width : 20% ;
+    height: 10%;
+    background: linear-gradient(to right , red 30% , yellow 70%);
+    margin: 200px ;
+}
+p{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 200px ;
+}
