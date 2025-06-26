@@ -11,4 +11,4 @@ function launchMission() {
 }
 
 // Add event listener to the button
-button.addEventListener("click",launchMission);
+button.addEventListener("click",launchMission);       
